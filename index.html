@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+    
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md p-4 flex justify-between items-center fixed top-0 w-full z-10">
+        <h1 class="text-xl font-bold">My Portfolio</h1>
+        <ul class="flex space-x-4">
+            <li><a href="#about" class="hover:text-blue-500">About</a></li>
+            <li><a href="#projects" class="hover:text-blue-500">Projects</a></li>
+            <li><a href="#contact" class="hover:text-blue-500">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Hero Section -->
+    <header class="text-center py-32 bg-gradient-to-r from-blue-500 to-purple-500 text-white relative">
+        <h2 class="text-5xl font-bold">Hi, I'm ADNAN ANSARI</h2>
+        <p class="mt-2 text-lg">A passionate full-stack developer creating modern web solutions</p>
+        <a href="#projects" class="mt-6 inline-block bg-white text-blue-500 px-6 py-3 rounded-lg shadow-md hover:bg-gray-200">View My Work</a>
+    </header>
+    
+    <!-- About Section -->
+    <section id="about" class="p-10 text-center">
+        <h3 class="text-3xl font-bold">About Me</h3>
+        <p class="mt-4 max-w-3xl mx-auto">I am a highly motivated full-stack web developer proficient in modern frameworks such as React, Node.js, and Tailwind CSS.</p>
+    </section>
+    
+    <!-- Projects Section -->
+    <section id="projects" class="p-10 bg-gray-200 text-center">
+        <h3 class="text-3xl font-bold">Projects</h3>
+        <div class="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-white p-6 shadow-lg rounded-lg hover:shadow-xl transition">
+                <h4 class="text-xl font-bold">E-Commerce Platform</h4>
+                <p class="mt-2">A scalable e-commerce application with payment gateway integration.</p>
+                <a href="/ecommerce/home.html" class="text-blue-500 mt-2 inline-block">View Details</a>
+            </div>
+            <div class="bg-white p-6 shadow-lg rounded-lg hover:shadow-xl transition">
+                <h4 class="text-xl font-bold">Portfolio Builder</h4>
+                <p class="mt-2">A web application to create and customize personal portfolios.</p>
+                <a href="/portfolio/portfolio.html" class="text-blue-500 mt-2 inline-block">View Details</a>
+            </div>
+            <div class="bg-white p-6 shadow-lg rounded-lg hover:shadow-xl transition">
+                <h4 class="text-xl font-bold">Task Manager</h4>
+                <p class="mt-2">A collaborative task management tool with real-time updates.</p>
+                <a href="/task manager/index.html" class="text-blue-500 mt-2 inline-block">View Details</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="p-10 text-center">
+        <h3 class="text-3xl font-bold">Contact Me</h3>
+        <p class="mt-4">I’d love to connect! Reach out to me via email or follow me on social media.</p>
+        <p class="mt-2 font-bold">Email: adnanansari9725@gmail.com</p>
+        <div class="mt-4 flex justify-center space-x-4">
+            <a href="https://www.linkedin.com/in/adnan-ansari-55b1782a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600">LinkedIn</a>
+            <a href="https://github.com/Adnan9725?tab=repositories" class="bg-gray-800 text-white px-4 py-2 rounded-lg hover:bg-gray-900">GitHub</a>
+            
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="text-center p-6 bg-gray-900 text-white mt-6">
+        <p>&copy; 2025 ADNAN ANSARI. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>
